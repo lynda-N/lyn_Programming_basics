@@ -1,0 +1,53 @@
+JAVA
+1 Vist this URL https://www.oracle.com/java/technologies/javase-downloads.html
+2.Accept License Agreement
+3.Click on download JDK Download
+4. Click on download Java JDK 8 download for windows 10 64 bit.
+5.Upon clicking on the Installation link a pop up will open. Click on I reviewed and accept the Oracle Technology Network License Agreement for Oracle Java SE and you will be redirected to the login page. If you don't have an oracle account you can easily sign up.
+6.Once the Java JDK 8 download is complete, run the exe for install JDK. Click Next
+7.Select the PATH to install Java in Windows, I left mine on default and clickext next.
+9.After installation I clicked closed.
+
+How to set Environment Variable
+1.Right Click on the My Computer and Select the properties
+2.Click on advanced system settings
+3.Click on Environment Variables
+4.Click on new Button of User variables
+5.Type PATH in the Variable name
+6.Copy the path of bin folder which is installed in JDK folder,usually thi folder is always in found in the C drive
+7.Paste Path of bin folder in Variable value. Click on OK button
+
+To comfirm if java is properly installed 
+Go to command prompt and type java -v
+
+GIT
+1.Download the latest git for Windows 
+2.Go to the dowloaded folder and double clicked on the installer
+3. While installing I clicked the default selections until I got to finished 
+
+To confirm if git is installed
+Go to command prompt and type git and clicked enter.
+
+How to create a repo in GIT
+1. Login and navigate to the top right corner of the of the page, click the drop-down button and click new repository
+2. Type a short memorable name, ensure to use a proper naming convension 
+4. Add a description, those this is optional
+5. Chose a repository visibity
+6. Add README
+7. Click create repository.
+
+How to push a file from my local Machine to GITHUB
+1.Go to command prompt
+2.From command prompt go to the directory where you work is saved, change directory by typing cd and the file directory
+3.Reintializ the existing git repo by typing git init
+4.Type git add .
+5 Type git commit -m "push 'the task name' first code commit"
+7.Type git remote add "the project name" and the repo URL
+8.Type git push "the project name" master.
+   
+
+
+
+
+
+
